@@ -29,7 +29,8 @@ function getEntityManager() : \Doctrine\ORM\EntityManager
             'password' => '2502success',
             'host'   => 'localhost',
             'port' => 3306,
-            'dbname'=>'doctmysql',
+            // 'dbname'=>'doctmysql',
+            'dbname'=>'food_delivery_app',
             'unix_socket'=>'/tmp/mysql.sock'
         );
 

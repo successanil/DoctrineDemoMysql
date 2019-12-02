@@ -27,5 +27,32 @@ class User
     public function getId() : int { return $this->id; }
     public function getName() : string { return $this->name; }
     public function getEmail() : string { return $this->email; }
+
+    /**
+     * Set name.
+     *
+     * @param string $name
+     *
+     * @return User
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Set email.
+     *
+     * @param string $email
+     *
+     * @return User
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
 }
-?>
